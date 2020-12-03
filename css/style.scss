@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  header {
+    min-height: 80px;
+    background-color: gray;
+
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+      }
+      .left-col {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .right-col {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .video {
+          margin-right: 10px;
+        }
+        ul {
+          li {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+    .download {
+      border: 1px solid black;
+      padding: 5px 20px;
+    }
+  }
+}
+#carouselExampleCaptions {
+  margin: 0;
+}
+
+.carousel-item {
+  height: 700px;
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-caption {
+  bottom: 150px;
+  width: 50%;
+  h5 {
+    width: 20%;
+    font-size: 3rem;
+  }
+  p {
+    text-align: justify;
+  }
+  .btn {
+    display: flex;
+    justify-content: flex-start;
+    background-color: Lightpink;
+    padding: 5px 50px;
+  }
+}
